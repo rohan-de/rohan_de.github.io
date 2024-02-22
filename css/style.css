@@ -1,0 +1,932 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 1530px;
+    height: auto;
+    margin: 0 auto;
+}
+.top-section{
+    display: flex;
+}
+.logo{
+    background-color: #FFDB00;
+    width: 195px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.row-2{
+    width: 100%;
+}
+.top-bar{
+    color: #fff;
+    background-color: #202020;
+    height: 42px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.find{
+    display: flex;
+    gap: 10px;
+    padding: 14px 0 0 32px;
+}
+.find h4 a{
+    font-weight: 400;
+    color: #aaa;
+    text-decoration: none;
+}
+.price-language{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-right: 89px;
+}
+.price-language h4{
+    color: #fff;
+    font-weight: 600;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+}
+ul.navigation{
+    display: flex;
+    gap: 20px;
+    padding: 33px 0 0 32px;
+}
+ul.navigation li{
+    list-style: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+ul.navigation li a{
+    text-decoration: none;
+    color: #333
+}
+span.sale{
+    color: #B6453F;
+}
+ul.navigation li a:hover{
+    text-decoration: underline 2px solid;
+}
+.second-panel{
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
+    padding: 20px 0 0 0;
+    margin-right: 89px;
+}
+input[type="search"]{
+    width: 300px;
+    height: 50px;
+    background: url(../images/prime_search.png);
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    font-size: 16px;
+    padding: 8px 20px 8px 45px;
+    border: none;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+}
+input[type="search"]::placeholder{
+    color: #aaa;
+}
+.header{
+    background: linear-gradient(270deg, #000 7.71%, rgba(194, 194, 194, 0.44) 47.75%, #000 88.46%),url(../images/pexels-erik-mclean-12700843.jpg);
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.details{
+    color: #fff;
+    padding: 229px 0 223px 89px;
+}
+.details h1{
+    font-size: 18px;
+    color: #FFDB00;
+}
+.details h2{
+    font-size: 110px;
+    width: 10%;
+    font-weight: bold;
+}
+span.the{
+    font-weight: normal;
+    padding-right: 15px;
+    font-style: italic;
+}
+.details h5{
+    font-size: 20px;
+    padding: 30px 0 20px 0;
+    text-align: unset;
+}
+.details p{
+    font-size: 30px;
+    color: #FFDB00;
+    padding: 0 0 20px 0;
+    font-weight: 600;
+}
+input[type="button"]{
+    padding: 20.5px 50.5px;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 1.62px;
+    font-size: 12px;
+    border-bottom: 4px solid #FFDB00;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 5px;
+}
+input[type="button"]:hover{
+    background-color: #ffe855;
+}
+.popuplar-categories{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.46) 0%, rgba(255, 255, 255, 0.46) 100%), url(../images/popular-background.png), lightgray 50% / cover no-repeat;
+    width: 100%;
+    height: 1050px;
+    margin: 0 0 80px 0;
+}
+.categories{
+    padding: 80px 0 0 0;
+}
+.categorie{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 56px 0;
+}
+.point{
+    display: flex;
+}
+svg.popular-pointer{
+    padding: 0 18px 0 0;
+}
+.point h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.view-all input[type="button"]{
+    background-color: #fff;
+    border: 2px solid #333;
+    padding: 11.5px 38.5px;
+    border-bottom: 4px solid #FFDB00;
+}
+.row-3{
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+    width: 49%;
+}
+.mountain{
+    display: flex;
+}
+.bikys{
+    background: linear-gradient(267deg, rgba(0, 0, 0, 0.20) 19.08%, rgba(0, 0, 0, 0.00) 37.36%, rgba(0, 0, 0, 0.00) 62.99%, rgba(0, 0, 0, 0.20) 76.75%), linear-gradient(90deg, rgba(0, 0, 0, 0.20) 23.01%, rgba(0, 0, 0, 0.20) 86.67%), url(../images/mountain-bikys.png), lightgray 50% / cover no-repeat;
+    width: 750px;
+    height: 480px;
+    position: relative;
+}
+.mountain-bikys{
+    position: absolute;
+    bottom: 28px;
+    left: 30px;
+}
+.mountain-bikys input[type="button"]{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FFDB00;
+    padding: 13px 16.5px;
+}
+.content{
+    display: flex;
+    gap: 0 30px;
+    padding: 0 0 80px 0;
+}
+.bikys2{
+    background: linear-gradient(276deg, rgba(0, 0, 0, 0.60) 13.62%, rgba(0, 0, 0, 0.00) 38.62%, rgba(0, 0, 0, 0.00) 81.21%, rgba(0, 0, 0, 0.60) 99.71%), url(../images/road\ bikes.png), lightgray 50% / cover no-repeat;
+    width: 750px;
+    height: 280px;
+    position: relative;
+}
+.road-bikys{
+    position: absolute;
+    bottom: 28px;
+    left: 30px;
+}
+.road-bikys input[type="button"]{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FFDB00;
+    padding: 13px 16px;
+}
+.row-4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 0;
+}
+.bikys3{
+    background: linear-gradient(141deg, rgba(0, 0, 0, 0.60) 13.62%, rgba(0, 0, 0, 0.00) 38.62%, rgba(0, 0, 0, 0.00) 81.21%, rgba(0, 0, 0, 0.60) 99.71%),url(../images/classicbikys.png),lightgray 50% / cover no-repeat;
+    height: 280px;
+    width: 750px;
+    position: relative;
+}
+.classic-bikys{
+    position: absolute;
+    bottom: 28px;
+    left: 30px;
+}
+.classic-bikys input[type="button"]{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 13px 15.5px;
+}
+.row4-content{
+    display: flex;
+    gap: 0 30px;
+}
+.bikys4{
+    background: linear-gradient(209deg, rgba(0, 0, 0, 0.38) 18.94%, rgba(255, 255, 255, 0.00) 37.7%, rgba(255, 255, 255, 0.05) 66.8%, rgba(0, 0, 0, 0.38) 82.77%), url(../images/city-bikys1.png), lightgray 50% / cover no-repeat;
+    width: 360px;
+    height: 480px;
+    position: relative;
+}
+.city-bikys{
+    position: absolute;
+    bottom: 28px;
+    left: 30px;
+}
+.city-bikys input[type="button"]{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FFDB00;
+    padding: 13px 15px;
+}
+
+.bikys5{
+    background: linear-gradient(209deg, rgba(0, 0, 0, 0.43) 19.03%, rgba(255, 255, 255, 0.00) 42.85%, rgba(255, 255, 255, 0.00) 45.03%, rgba(0, 0, 0, 0.43) 73.41%), url(../images/electric-bikys.png), lightgray 50% / cover no-repeat;
+    width: 360px;
+    height: 480px;
+    position: relative;
+}
+.electric-bikys{
+    position: absolute;
+    bottom: 28px;
+    left: 30px;
+}
+.electric-bikys input[type="button"]{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FFDB00;
+    padding: 13px 17px;
+}
+.deals{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 89px 0;
+}
+.deal1{
+    box-sizing: border-box;
+    background-color: #F4F4F4;
+    width: 490px;
+    height: 450px;
+    position: relative;
+}
+.urban-texts{
+    position: absolute;
+    bottom: 257px;
+    right: -74px;
+}
+.deal1 h1{
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: -0.96px;
+    color: #525252;
+    text-align: right;
+    width: 70%;
+}
+.deal1 h2{
+    text-align: right;
+    font-size: 45px;
+    font-weight: 800;
+    font-size: 45px;
+    width: 70%;
+    font-weight: bold;
+}
+span.your{
+    font-weight: normal;
+    padding-right: 15px;
+    font-style: italic;
+}
+.best-deal{
+    background-color: #FFA823;
+    box-sizing: border-box;
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    bottom: 57px;
+    right: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+}
+.deal1 a{
+    color: #fff;
+    text-decoration: none;
+    width: 35%;
+}
+.deal1 a p{
+    font-size: 20px;
+}
+svg.seller-pointer{
+    padding: 0 18px 0 0;
+}
+.best-sellers{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 47px 0;
+}
+.products,.new-produuct{
+    display: flex;
+    padding: 0 0 161px 0;
+}
+.product-content{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 383px;
+    border: 2px solid #E2E2E2;
+    border-right: 2px solid #E2E2E2;
+    position: relative;
+}
+.product{
+    padding: 30px 29px 0 29px;
+}
+.stock-btn{
+    position: absolute;
+    background-color: #88DD68;
+    padding: 2px 5.5px 4px;
+    top: 15px;
+    left: 30px;
+    margin: 15px 0 0 0;
+}
+.stock-btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.product-img{
+    text-align: center;
+    padding: 35px 0 0 0;
+}
+.colors{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    padding: 39px 39px 0 0;
+}
+.color1{
+    background-color: #0099ff;
+    height: 16px;
+    width: 16px;
+    border-radius: 90px;
+}
+.color2{
+    background-color: #000000;
+    height: 16px;
+    width: 16px;
+    border-radius: 90px;
+}
+.color3{
+    background-color: #8d8d8d;
+    height: 16px;
+    width: 16px;
+    border-radius: 90px;
+}
+.argon h2{
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 400;
+    padding-bottom: 13px;
+}
+.argon h4{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 0 13px 0;
+}
+.argon p{
+    font-weight: 800;
+    padding: 0 0 13px 0;
+}
+.ratting{
+    padding: 0 0 13px 0;
+}
+.cart{
+    border-top: 2px solid #E2E2E2;
+}
+.add-cart a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 0 30px 30px;
+    text-decoration: none;
+    color: #000;
+}
+.add-cart h4{
+    font-size: 15px;
+}
+.accessories{
+    background: linear-gradient(0deg, rgba(32, 32, 32, 0.76) 39.23%, rgba(0, 0, 0, 0.00) 112.32%), url(../images/162-ebike.jpg), lightgray 50% / cover no-repeat;;
+    width: 100%;
+    height: 970px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.accessorie svg{
+    padding: 90px 18px 0 0;
+}
+.accessorie h1{
+    color: #fff;
+    padding: 90px 0 0 0;
+}
+.bike-accessories{
+    margin: 603px 0 0 0;
+    display: flex;
+    padding: 0 0 79px 0;
+}
+.bike-parts{
+    background-color: #4D4D4D;
+    width: 190px;
+    height: auto;
+    text-align: center;
+    border-right: 1px solid #333;
+    color: #fff;
+    filter: brightness(70%);
+}
+.bike-parts img{
+    padding: 14px 0 0 0;
+}
+.bike-parts p{
+    font-weight: bold;
+    padding: 0 0 25px 0;
+}
+.point-btn-holder{
+    display: flex;
+    justify-content: space-between;
+    padding: 89px 0 47px 0;
+}
+.new{
+    display: flex;
+    padding: 0 0 80px 0;
+}
+.new-product2{
+    box-sizing: border-box;
+    width: 763px;
+    border: 2px solid #e2e2e2;
+    border-right: 2px solid #e2e2e2;
+    position: relative;
+}
+.argon2{
+    padding: 55px 0 46px 0;
+}
+.argon2 h2{
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 400;
+    padding-bottom: 13px;
+}
+.argon2 h4{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 0 13px 0;
+}
+.argon2 p{
+    font-weight: 800;
+    padding: 0 0 13px 0;
+}
+.add-cart-new a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 21px 0 16.5px 30px;
+    text-decoration: none;
+    color: #000;
+}
+.style-train{
+    display: flex;
+}
+.style-column{
+    background: url(../images/red-cycle.png);
+    width: 100%;
+    height: 739px;
+    background-color: #CA0A22;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.details3{
+    text-align: -webkit-center;
+    padding: 244px 0 0 0;
+}
+.details3 h2{
+    color: #fff;
+    font-size: 16px;
+    padding: 0 0 24px;
+}
+.details3 h3{
+    color: #fff;
+    font-size: 60px;
+    width: 30%;
+}
+.details3 i{
+    font-weight: 400;
+}
+.discover-btn{
+    padding: 33px 0 0 0;
+}
+.train-column{
+    background: url(../images/trek-trek-powerfly-fs-7-ebike-radioactive-red-trek-black-2021_2056086-removebg-preview.png);
+    width: 100%;
+    height: 739px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.companies{
+    display: flex;
+    padding: 0 0 80px 0;
+}
+.company img{
+    width: 235.7px;
+    border-bottom: 2px solid #E2E2E2;
+    border-right: 2px solid #E2E2E2;
+}
+.our-mission{
+    padding: 0 0 79px 0;
+}
+.mission{
+    display: flex;
+    gap: 65px;
+}
+.our{
+    border: none;
+    margin: 0 0 33px 0;
+}
+.our input[type="button"]{
+    font-size: 12px;
+    padding: 5px 6px 5px 6px;
+    font-weight: bold;
+    border: none;
+    background-color: #FFD90A;
+}
+.service-support{
+    padding: 119px 0 119px 0;
+    width: 33%;
+}
+.service-support h1{
+    /* width: 70%; */
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0 0 34px 0;
+}
+.service-support p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #434343;
+    padding: 0 0 49px 0;
+}
+.service-support span{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.brands-contact{
+    display: flex;
+    align-items: flex-start;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.brand h4{
+    width: 50%;
+}
+.cycle-repaire{
+    background: linear-gradient(291deg, rgba(0, 0, 0, 0.51) 27.16%, rgba(0, 0, 0, 0.12) 77.94%), url(../images/Bicycle-Repair-scaled.png), lightgray 50% / cover no-repeat;
+    width: 960px;
+    height: 610px;
+    position: relative;
+}
+.contact{
+    border: none;
+    margin: 0 0 33px 0;
+}
+.contact input[type="button"]{
+    font-size: 12px;
+    padding: 17px 49px;
+    font-weight: bold;
+    border-bottom: 4px solid #FFDB00;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.excellent{
+    background-color: #ffffff;
+    width: 490px;
+    height: 490px;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+}
+.excellent-inner{
+    padding: 60px;
+}
+.ratting2{
+    text-align: center;
+    padding: 16px 0;
+}
+.ratting2 svg{
+    background-color: #00B679;
+    padding: 6px;
+}
+.excellent-inner h2,h5{
+    text-align: center;
+}
+.experience h2{
+    text-align: unset;
+    font-size: 17px;
+    font-weight: 600;
+}
+.experience{
+    padding: 37px 0 29px 0;
+}
+.excellent-inner h5{
+    padding: 0 0 40px 0;
+    border-bottom: 2px solid #E3E3E3;
+}
+.experience p{
+    padding: 11px 0 0 0;
+    width: 90%;
+    font-size: 15px;
+}
+.derrick h1{
+    font-size: 17px;
+    font-weight: 600;
+}
+.derrick p{
+    font-size: 12px;
+    padding: 11px 0 0 0;
+    color: #aaa;
+    font-weight: bold;
+}
+.benifits{
+    padding: 0 0 89px 0;
+}
+.benifit{
+    display: flex;
+    gap: 0 177px;
+    height: 200px;
+    border-top: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+    justify-content: center;
+    align-items: center;
+}
+.svg-text{
+    display: flex;
+    gap: 0 31px;
+}
+.benifit-text h1{
+    font-size: 18.5px;
+    font-weight: 600;
+    letter-spacing: -1.425px;
+    padding: 0 0 18px 0;
+}
+.benifit-text p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.tips-box,.tips-box3{
+    border-right: 1px solid #E2E2E2;
+    height: auto;
+    width: 500px;
+}
+.tips-box3{
+    border: none;
+}
+.tips-img{
+    background: linear-gradient(336deg, rgba(0, 0, 0, 0.49) 3.51%, rgba(0, 0, 0, 0.03) 88.78%), url(../images/tips1.png), lightgray 50% / cover no-repeat;
+    height: 520px;
+    width: 470px;
+    position: relative;
+}
+.tps-btns{
+    display: flex;
+    gap: 0 4px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.btn1 input[type="button"]{
+    padding: 5px 8px 4.5px 8px;
+    font-size: 12px;
+    border-radius: unset;
+    background-color: #FFDA02;
+    font-weight: 600;
+}
+.tips-box h1,.tips-box3 h1{
+    font-size: 18px;
+    font-weight: 900;
+    padding: 36px 0 0 0;
+}
+.date-admin,.admin{
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+.date-admin{
+    padding: 23px 0 0 0;
+}
+.date h3,.admin p{
+    font-size: 10px;
+    font-weight: 500;
+    color: #aaa;
+}
+/* .admin p{
+    font-size: 10px;
+    color: #aaa;
+    font-weight: 500;
+} */
+span.admn{
+    color: #000;
+    font-weight: 800;
+}
+.guide-row{
+    display: flex;
+    gap: 0 29px;
+}
+.guides{
+    padding: 0 0 84px 0;
+}
+.dont-miss{
+    background-color: #000;
+    height: auto;
+}
+.dont-miss-texts{
+  padding: 91px 0 88px 0;
+}
+.dont-miss-texts p{
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    margin: 0 722px;
+    padding: 33px 0 29px 0;
+    font-weight: 500;
+}
+.offers-bikes{
+    color: #A0A0A0;
+}
+.point-miss-texts{
+    display: flex;
+    justify-content: center;
+}
+.point-miss-texts h1{
+    color: #fff;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 27px 0;
+}
+.email input#email{
+    padding: 21px 373px 21px 28px;
+    border: none;
+}
+input#email::placeholder{
+    color: #ADADAD;
+}
+.subscribe input[type="button"]{
+    padding: 19.5px 38px;
+    border-radius: unset;
+    background-color: #FFD90A;
+}
+.dont-miss h4{
+    color: #A0A0A0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;   
+}
+.footer{
+    background-color: #202020;
+    width: 100%;
+    height: auto;
+}
+.footer-inner{
+    padding: 46px 0 0 0;
+}
+.footer1st-row{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.footer-logo{
+    background-color: #FFDB00;
+    width: 195px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -81px;
+}
+.footer-logo h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.number h1{
+    color: #fff;
+    font-size: 34px;
+    font-weight: 600;
+    padding: 0 0 13px 0;
+}
+.example-mail{
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+.example-mail p{
+    font-size: 15px;
+    color: #9D9D9D;
+}
+.number-example {
+    margin: 0 0 0 274px;
+}
+.store-location h1,.opening h1,.follow-us h1{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    padding: 0 0 22px 0;
+}
+.store-location p,.opening p{
+    font-size: 15px;
+    color: #9d9d9d;
+    width: 70%;
+}
+span.time{
+    color: #fff;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+.footer2nd-row{
+    display: flex;
+    border-top: 1px solid #363636;
+    border-bottom: 1px solid #363636;
+    height: 339px;
+    margin: 33px 0 0 0;
+    padding: 78px 0 0 0;
+    align-items: baseline;
+    gap: 0 165px;
+}
+ul.footer-categories,.footer-brand{
+    padding: 27px 0 0 0;
+}
+.biky-brands{
+    margin: 30px 0 0 0;
+}
+.more-option li,.footer-categories li,.footer-brand li,.biky-brand li{
+    list-style: none;
+    padding: 0 0 18px 0;
+}
+.more-option li a,.footer-categories li a,.footer-brand li a,.biky-brand li a,span.bike,.copy-write h1{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer-categories li a,.footer-brand li a,.biky-brand li a,.copy-write h1{
+    color: #8D8D8D;
+}
+.footer-categorie h1,.footer-brands h1{
+    font-size: 19px;
+    color: #EBD833;
+}
+.copy-write{
+    padding: 53px 0 57px 0;
+}
